@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Más sobre mí</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #fcb69f);
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(8px);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.3rem;
+      color: #222;
+    }
+    section {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #d35400;
+      border-bottom: 2px solid #f39c12;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      padding: 10px;
+      margin: 8px 0;
+      background: #f9f9f9;
+      border-radius: 8px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 220px;
+      border-radius: 12px;
+      margin: 10px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.08);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+    }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #d35400;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    a:hover {
+      background: #2c3e50;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Un Poco Más Sobre Mí</h1>
+  </header>
+
+  <section>
+    <h2>Mis Colores Favoritos</h2>
+    <ul>
+      <li>Verde</li>
+      <li>Rosa</li>
+      <li>Negro</li>
+    </ul>
+
+    <h2>Mis Comidas Favoritas</h2>
+    <ul>
+      <li>Nachos</li>
+      <li>Hamburguesas</li>
+      <li>Pastas</li>
+    </ul>
+
+    <h2>Mis Deportes Favoritos</h2>
+    <ul>
+      <li>Baloncesto</li>
+      <li>Fútbol</li>
+      <li>Voleibol</li>
+    </ul>
+
+    <h2>Mis Fotos</h2>
+    <div class="gallery">
+      <img src="imagenes/imagen2.jpg.jpg">
+      <img src="imagenes/imagen3.jpg.jpg">
+      <img src="imagenes/imagen4.jpg.jpg">
+    </div>
+
+    <a href="index.html">Volver a la Página Principal</a>
+  </section>
+</body>
+</html>
